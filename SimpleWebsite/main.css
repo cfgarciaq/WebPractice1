@@ -5,30 +5,36 @@
 }
 
 body {
-    font-family: monospace;
-}
-
-ul {
+    background: var(--bg);
+    color: var(--fontColor);
     font-family: helvetica;
 }
 
+/*
+ul {
+    font-family: helvetica;
+}
+*/
+
 li {
     list-style: circle;
-  }
+}
   
-  .list {
+.list {
     list-style: square;
-  }
+}
   
-  #msg {
+/*
+#msg {
     font-family: monospace;
-  }
+}
+*/
 
-  .light-theme {
+.light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
-  }
-  .dark-theme {
+}
+.dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
-  }
+}
